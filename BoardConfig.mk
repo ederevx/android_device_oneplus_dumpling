@@ -21,3 +21,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # inherit from the proprietary version
 include vendor/oneplus/dumpling/BoardConfigVendor.mk
+
+TARGET_SYSTEM_PROP += \
+    $(DEVICE_PATH)/system.prop
