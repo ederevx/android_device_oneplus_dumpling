@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dumpling.mk
+    $(LOCAL_DIR)/yaap_dumpling.mk
