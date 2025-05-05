@@ -1,3 +1,10 @@
 ro.display.series="OnePlus 5T"
 vendor.boot.project_name=17801
 ro.hardware.fingerprint=goodix
+
+# Infinity
+ro.infinity.soc=Snapdragon 835
+ro.infinity.battery=3300 mAh
+ro.infinity.display=1080 x 2160, 60 Hz
+ro.infinity.camera=16MP + 20MP + 16MP
+ro.product.marketname=OnePlus 5T
