@@ -15,6 +15,7 @@ from extract_utils.fixups_blob import (
 
 namespace_imports = [
     'hardware/oneplus',
+    'hardware/qcom-caf/sdm660',
     'hardware/qcom-caf/msm8998',
     'vendor/oneplus/msm8998-common',
 ]
