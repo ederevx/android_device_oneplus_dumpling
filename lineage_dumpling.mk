@@ -14,6 +14,10 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Keep userdebug debuggable without disabling ADB authentication.
+# This boolean uses nonempty=true; clear it after the final inheritance.
+PRODUCT_NOT_DEBUGGABLE_IN_USERDEBUG :=
+
 PRODUCT_NAME := lineage_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
