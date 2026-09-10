@@ -45,5 +45,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DumplingWifiOverlay
 
+# Camera
+DUMPLING_CAMERA_CONFIG_DEST := \
+    $(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/camera/camera_config.xml:$(DUMPLING_CAMERA_CONFIG_DEST)
+
 # Inherit from oneplus msm8998-common
 $(call inherit-product, device/oneplus/msm8998-common/common.mk)
