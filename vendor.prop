@@ -4,5 +4,4 @@ vendor.boot.project_name=17801
 bluetooth.device.default_name=OnePlus 5T
 
 # USB
-persist.sys.usb.config=mtp,adb
 vendor.usb.product_string=OnePlus 5T
