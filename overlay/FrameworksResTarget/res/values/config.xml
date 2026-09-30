@@ -12,4 +12,8 @@
     <!-- Enable system navigation keys. -->
     <bool name="config_supportSystemNavigationKeys">true</bool>
 
+    <!-- Default radius of the software rounded corners, taken from the
+         OnePlus 5T's OxygenOS SystemUI rounded_corner_radius_top/bottom. -->
+    <dimen name="rounded_corner_radius">18px</dimen>
+
 </resources>
