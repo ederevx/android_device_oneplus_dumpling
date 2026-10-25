@@ -21,11 +21,6 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
-    (
-        'vendor/lib/hw/fingerprint.goodix.so',
-        'vendor/lib64/hw/fingerprint.goodix.so',
-    ): blob_fixup()
-        .binary_regex_replace(b'\x00goodix.fingerprint\x00', b'\x00fingerprint\x00\x00\x00\x00\x00\x00\x00\x00'),
     # private_handle_t size/offset: old 0x34/0x38 -> commonsys-intf 0x48/0x4c
     'vendor/lib/hw/camera.msm8998.so': blob_fixup()
         .sig_replace(
