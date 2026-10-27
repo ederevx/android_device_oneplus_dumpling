@@ -15,8 +15,9 @@ from extract_utils.fixups_blob import (
 
 namespace_imports = [
     'hardware/oneplus',
-    'hardware/qcom-caf/msm8998',
+    'hardware/qcom-caf/sdm660',
     'vendor/oneplus/msm8998-common',
+    'vendor/qcom/opensource/display',
 ]
 
 blob_fixups: blob_fixups_user_type = {
