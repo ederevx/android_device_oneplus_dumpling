@@ -17,6 +17,7 @@ namespace_imports = [
     'hardware/oneplus',
     'hardware/qcom-caf/sdm660',
     'vendor/oneplus/msm8998-common',
+    'vendor/qcom/opensource/display',
 ]
 
 blob_fixups: blob_fixups_user_type = {
